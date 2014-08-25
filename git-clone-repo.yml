@@ -1,0 +1,8 @@
+---
+ - hosts: all
+
+   vars:
+    - workspace: /tmp/dev
+
+   roles:
+    - git-clone-repo
